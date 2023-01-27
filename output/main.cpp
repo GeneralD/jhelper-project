@@ -16,18 +16,18 @@ int getTheAnswer() {
 
 class Task {
 public:
-	void solve(std::istream& in, std::ostream& out) {
-		int x;
-		in >> x;
-		out << x + getTheAnswer() << "\n";
-	}
+    void solve(std::istream &in, std::ostream &out) {
+        int x;
+        in >> x;
+        out << x + getTheAnswer() << "\n";
+    }
 };
 
 
 int main() {
-	Task solver;
-	std::istream& in(std::cin);
-	std::ostream& out(std::cout);
-	solver.solve(in, out);
-	return 0;
+    Task solver;
+    std::istream &in(std::cin);
+    std::ostream &out(std::cout);
+    solver.solve(in, out);
+    return 0;
 }

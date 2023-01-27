@@ -8,22 +8,32 @@
 }]]></component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="jhelper-example-project" targetName="testrunner" />
-      <config projectName="jhelper-example-project" targetName="jhelper_example_project" />
-      <config projectName="jhelper-example-project" targetName="output" />
-      <config projectName="jhelper-example-project" targetName="test" />
+      <config projectName="jhelper-project" targetName="test" />
+      <config projectName="jhelper-project" targetName="jhelper_example_project" />
+      <config projectName="jhelper-project" targetName="output" />
+      <config projectName="jhelper-project" targetName="testrunner" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e173ed55-e541-424a-82e1-b5da979c74d7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/custom-compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/A___Range_Swap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/ARangeSwap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Task.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/lib.hpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Task.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Task.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.template" beforeDir="false" afterPath="$PROJECT_DIR$/run.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task.template" beforeDir="false" afterPath="$PROJECT_DIR$/task.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/Task.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testrunner/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/testrunner/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,36 +138,42 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Task.Task">
+  <component name="RunManager" selected="Task.A - Range Swap">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jhelper-example-project" TARGET_NAME="jhelper_example_project" CONFIG_NAME="Debug">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jhelper-project" TARGET_NAME="jhelper_example_project" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="output" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jhelper-example-project" TARGET_NAME="output" CONFIG_NAME="Debug">
+    <configuration name="output" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jhelper-project" TARGET_NAME="output" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jhelper-example-project" TARGET_NAME="test" CONFIG_NAME="Debug">
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jhelper-project" TARGET_NAME="test" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testrunner" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jhelper-example-project" TARGET_NAME="testrunner" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jhelper-example-project" RUN_TARGET_NAME="testrunner">
+    <configuration name="testrunner" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jhelper-project" TARGET_NAME="testrunner" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jhelper-project" RUN_TARGET_NAME="testrunner">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -212,7 +228,7 @@
       <item itemvalue="CMake Application.output" />
       <item itemvalue="CMake Application.test" />
       <item itemvalue="CMake Application.testrunner" />
-      <item itemvalue="Task.Task" />
+      <item itemvalue="Task.A - Range Swap" />
     </list>
   </component>
   <component name="TaskManager">
@@ -259,16 +275,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/tasks/Task.cpp</url>
-          <line>4</line>
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

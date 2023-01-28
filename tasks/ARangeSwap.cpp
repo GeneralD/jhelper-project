@@ -67,7 +67,7 @@ class ARangeSwap {
 public:
 	void solve(std::istream &cin, std::ostream &cout) {
 		ll n, p, q, r, s;
-		cin >> n;/**/
+		cin >> n;
 		cin >> p;
 		cin >> q;
 		cin >> r;

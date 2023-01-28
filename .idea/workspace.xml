@@ -21,9 +21,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e173ed55-e541-424a-82e1-b5da979c74d7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task.template" beforeDir="false" afterPath="$PROJECT_DIR$/task.template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/ARangeSwap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/ARangeSwap.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

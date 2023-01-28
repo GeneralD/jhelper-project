@@ -1,7 +1,9 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
+// @formatter:off
 // accelerate generating binary
 #pragma GCC target("avx")
 #pragma GCC optimize("O3")
@@ -14,7 +16,7 @@ using ull = unsigned long long;
 using ll = long long;
 using vi = vector<int>;
 using vl = vector<long>;
-using vll = vector<long long>;
+using vll = vector<ll>;
 using vvi = vector<vi>;
 using vvl = vector<vl>;
 using vvll = vector<vll>;
@@ -64,6 +66,24 @@ template <typename T> inline bool chmax(T& a, const T& b) {bool compare = a < b;
 class ARangeSwap {
 public:
 	void solve(std::istream &cin, std::ostream &cout) {
-
+		ll n, p, q, r, s;
+		cin >> n;/**/
+		cin >> p;
+		cin >> q;
+		cin >> r;
+		cin >> s;
+		vll in(n);
+		rep(i, n) cin >> in[i];
+		p--;
+		q--;
+		r--;
+		s--;
+		rep(i, n) {
+			ll v;
+			if (p <= i && i <= q) v = in[r + i - p];
+			else if (r <= i && i <= s) v = in[p + i - r];
+			else v = in[i];
+			cout << v << " ";
+		}
 	}
 };

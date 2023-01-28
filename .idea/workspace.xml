@@ -21,20 +21,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e173ed55-e541-424a-82e1-b5da979c74d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/custom-compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/A___Range_Swap.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/ARangeSwap.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Task.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/lib.hpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.template" beforeDir="false" afterPath="$PROJECT_DIR$/run.template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task.template" beforeDir="false" afterPath="$PROJECT_DIR$/task.template" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Task.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testrunner/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/testrunner/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/ARangeSwap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/ARangeSwap.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
